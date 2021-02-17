@@ -2,6 +2,7 @@ body {
     color:#f8f8f2;
     background:#272822;
     margin: auto;
+    font-family:monospace;
 }
 
 h1 {
@@ -9,31 +10,43 @@ h1 {
 }
 
 .pbetter {
-    font-family:monospace;
     font-size:16px;
 }
 
 .h1better {
-    font-family:monospace;
     color:#a6e22e;
-}
-
-.resright {
-	float: right;
-	max-width: 300px;
-    box-shadow:0px 0px 15px #000000;
 }
 
 body {
     max-width: 850px;
 }
 
-.pfp { 
-    text-align: justify; 
-    width: 256; 
-} 
- 
-.pfp img { 
-    display: block; 
-    margin: 0 auto; 
-} 
+.img-with-text {
+    float: right;
+    text-align: center;
+    width: 256px;
+}
+
+.img-with-text img {
+    height: 256px;
+    width: 256px;
+    float: right;
+    max-width: 300px;
+    box-shadow:0px 0px 15px #000000;
+}
+
+.img-with-text p {
+    margin-top: 264px
+}
+
+.lol {
+    background:#1c1d1a;
+	padding: 10px;
+    width: 160px;
+}
+
+.lol ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
