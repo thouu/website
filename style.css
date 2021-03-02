@@ -19,6 +19,7 @@ h1 {
 
 body {
     max-width: 850px;
+    overflow-x:hidden;
 }
 
 .img-with-text {
@@ -67,10 +68,6 @@ li {
     filter: invert(100%);
 }
 
-.yt {
-    color: #66d9ef;
-}
-
 .warning {
     color: #f92672;
     font-size:12px;
@@ -78,4 +75,12 @@ li {
 
 .ytchannels {
     font-size:8px;
+}
+
+.thing {
+    width: 535px;
+}
+
+a {
+    color: #66d9ef;
 }
