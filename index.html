@@ -11,29 +11,38 @@
         <h2 class=h2better>thou's homepage</h2>
         <div class="img-with-text">
             <img src="pfp.jpg" alt="Profile picture" title="Me">
-            <p><script type="text/javascript">
-                var m = "webpage last updated: " + document.lastModified;
-                var p = m.length-8;
-                document.write(m.substring(p, 0));
-                </script></p>
+            <p>
+                <script type="text/javascript">
+                    var m = "webpage last updated: " + document.lastModified;
+                    var p = m.length-8;
+                    document.write(m.substring(p, 0));
+                </script>
+            </p>
         </div>
         <p class=pbetter>Welcome to my homepage! This website is going to be used for hosting files to send to my friends, and an aggregate place I can put all of my content. I might put articles here too.</p>
-        <div class=lol>
-            <h3>technology</h3>
-            <ul>
-                <li>💿 <a href="software.html"><strong>What software I use</strong></a></li>
-                <li>🖥️ <a href="specs.html"><strong>What hardware I use</strong></a></li>
-            </ul>
+        <div class=flex-container>
+            <div class=flex-item>
+                <h3>technology</h3>
+                <ul>
+                    <li class=homepagelist>💿 <a href="software.html"><strong>What software I use</strong></a></li>
+                   <li class=homepagelist>🖥️ <a href="specs.html"><strong>What hardware I use</strong></a></li>
+                </ul>
+            </div>
+            <div class=flex-item>
+              <h3>social media</h3>
+              <ul>
+                   <li class=homepagelist><img class=invert src="github.svg" width=14> <a href="https://github.com/thouu" style="color:#66d9ef"><strong>Github</strong></a></li>
+                   <li class=homepagelist><img src="yt.svg" width=14> <a href="https://www.youtube.com/channel/UCWNVXlf2koJ-ow1-dDmTqMw" style="color:#66d9ef"><strong>YouTube</strong></a></li>
+                </ul>
+            </div>
+            <div class=flex-item>
+                <h3>this site</h3>
+                <ul>
+                   <li class=homepagelist>📜 <a href="credits.html"><strong>Credits</strong></a></li>
+                   <li class=homepagelist>placeholder</li>
+                </ul>
+            </div>
         </div>
-        <div class=lol>
-            <h3>social media</h3>
-            <ul>
-                <li><img class=invert src="github.svg" width=14> <a href="https://github.com/thouu" style="color:#66d9ef"><strong>Github</strong></a></li>
-                <li><img src="yt.svg" width=14> <a href="https://www.youtube.com/channel/UCWNVXlf2koJ-ow1-dDmTqMw" style="color:#66d9ef"><strong>YouTube</strong></a></li>
-            </ul>
-        </div>
-        <div class=thing>
             <a href="ytarchive.html"><h2 class=yt>Check out my YouTube channel archive!</h2></a>
-        </div>
     </body>
 </html>
