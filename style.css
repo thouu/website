@@ -57,6 +57,7 @@ body {
 
 .flex-container {
     display: flex;
+    gap: 0px 10px;
 }
 
 .flex-container .flex-item {
@@ -65,7 +66,6 @@ body {
     width: 160px;
     border-radius: 7px;
     display: inline-block;
-    margin: 6px;
 }
 
 .flex-container .flex-item ul {
@@ -99,4 +99,8 @@ li {
 
 a {
     color: #66d9ef;
+}
+
+.yt {
+    width: 535px;
 }
