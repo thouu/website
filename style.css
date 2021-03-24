@@ -8,13 +8,12 @@ body {
 .pbetter {
     font-size:14px;
 }
-
 .h2better {
     color:#a6e22e;
 }
 
 body {
-    max-width: 850px;
+    max-width: 860px;
     overflow-x:hidden;
 }
 
@@ -44,7 +43,7 @@ body {
 .lolprev {
     background:#1c1d1a;
 	padding: 10px;
-    width: 160px;
+    width: 170px;
     border-radius: 7px;
     display: inline-block;
 }
@@ -63,7 +62,7 @@ body {
 .flex-container .flex-item {
     background:#1c1d1a;
 	padding: 10px;
-    width: 160px;
+    width: 170px;
     border-radius: 7px;
     display: inline-block;
 }
