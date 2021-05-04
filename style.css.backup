@@ -1,6 +1,6 @@
 body {
-    color:#ebdbb2;
-    background:#282828;
+    color:#f8f8f2;
+    background:#272822;
     margin: auto;
     font-family:Hack;
 }
@@ -9,7 +9,7 @@ body {
     font-size:14px;
 }
 .h2better {
-    color:#b8bb26;
+    color:#a6e22e;
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 }
 
 .image {
-    border: 1px solid #ebdbb2;
+    border: 1px solid #f8f8f2;
 }
 
 .img-with-text p {
@@ -41,7 +41,7 @@ body {
 }
 
 .lolprev {
-    background:#1d2021;
+    background:#1c1d1a;
 	padding: 10px;
     width: 170px;
     border-radius: 7px;
@@ -60,7 +60,7 @@ body {
 }
 
 .flex-container .flex-item {
-    background:#1d2021;
+    background:#1c1d1a;
 	padding: 10px;
     width: 170px;
     border-radius: 7px;
@@ -88,7 +88,7 @@ li {
 }
 
 .warning {
-    color: #fb4934;
+    color: #f92672;
     font-size:12px;
 }
 
@@ -97,7 +97,7 @@ li {
 }
 
 a {
-    color: #8ec07c;
+    color: #66d9ef;
 }
 
 .yt {
