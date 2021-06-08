@@ -3,25 +3,19 @@ body {
     background:#282828;
     margin: auto;
     font-family:Hack;
+    max-width: 600px;
+    overflow-x:hidden;
+    
 }
 
 .pbetter {
     font-size:14px;
+    text-align: center;
 }
+
 .h2better {
     color:#b8bb26;
-}
-
-body {
-    max-width: 860px;
-    overflow-x:hidden;
-}
-
-.img-with-text {
-    float: right;
     text-align: center;
-    width: 256px;
-    font-size:10px;
 }
 
 .img-with-text img {
@@ -36,24 +30,6 @@ body {
     border: 1px solid #ebdbb2;
 }
 
-.img-with-text p {
-    margin-top: 262px
-}
-
-.lolprev {
-    background:#1d2021;
-	padding: 10px;
-    width: 170px;
-    border-radius: 7px;
-    display: inline-block;
-}
-
-.lolprev ul {
-	margin: 0;
-	list-style: none;
-	padding: 0;
-}
-
 .flex-container {
     display: flex;
     gap: 0px 10px;
@@ -61,10 +37,19 @@ body {
 
 .flex-container .flex-item {
     background:#1d2021;
-	padding: 10px;
+	  padding: 10px;
     width: 170px;
     border-radius: 7px;
     display: inline-block;
+}
+
+.flex-container-bababooey .flex-item-bababooey {
+    background:#1d2021;
+	  padding: 10px;
+    width: 570px;
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .flex-container .flex-item ul {
@@ -90,16 +75,18 @@ li {
 .warning {
     color: #fb4934;
     font-size:12px;
-}
-
-.ytchannels {
-    font-size:8px;
+    text-align: center;
 }
 
 a {
-    color: #8ec07c;
+    color: #83a598;
+    text-decoration: none;
 }
 
-.yt {
-    width: 535px;
+a:hover {
+    text-decoration: underline;
+}
+
+.crypto {
+    font-size:11px;
 }
